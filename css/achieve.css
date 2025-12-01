@@ -1,0 +1,375 @@
+.firstimgs { 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.firstimgs img {
+    width: 100%;
+}
+
+.h1img {
+    position: absolute;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--gray);
+    padding: 8px;
+    border-radius: px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnh1 {
+    position: absolute;
+    bottom: 10%;
+    padding: 0px;
+    text-align: center;
+    color: var(--black);
+    background-color: var(--white);
+    border-radius: 10px;
+    display: flex;
+}
+
+/* 🔥 CORREÇÃO AQUI: NOVO BLOCO .liner */
+
+.liner2 {
+ position: relative;
+    width: auto;
+    height: 100vh;
+    background-image: url('/img/MUNDO\ 1\ \(3\).jpeg');
+    background-position: left;
+background-repeat: no-repeat;
+    height: 1600px;
+   
+}
+
+.liner3 {
+    position:relative;
+    width: auto;
+    height: 100vh;
+    background-image: url('/img/BASE\ 1\ \(1\).jpeg');
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 1600px;
+
+}
+
+.imagem{
+    margin-left: 15px;
+    margin-right: 0px;
+}
+
+.seeall {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    align-self: center;
+}
+
+.seeall:hover {
+    background-color: var(--inputclr);
+    color: rgb(255, 255, 255);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+button {
+    border: none;
+}
+
+.btnsec:hover {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+button:hover {
+    background-color: var(--inputclr);
+    color: var(--white);
+}
+
+.launches {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.launches img {
+    width: 250px;
+}
+
+.secimgs {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.secimgs img {
+    width: 100%;
+}
+
+.h1sec {
+    position: absolute;
+    text-align: center;
+    background-color: var(--gray);
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnsec {
+    position: absolute;
+    top: 250%;
+    padding: 10px;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--inputclr);
+    border-radius: 10px;
+    display: flex;
+}
+
+.mostsell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.mostsell img {
+    width: 250px;
+}
+
+.thirdimg {
+    margin-top: 30px;
+    width: 75%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    margin-bottom: 30px;
+}
+
+.h1thi {
+    position: absolute;
+    background-color: var(--gray);
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-left: 20px;
+}
+
+.btnthi {
+    margin-left: 20px;
+    position: absolute;
+    top: 494%;
+    padding: 10px;
+    text-align: center;
+    color: var(--black);
+    background-color: var(--white);
+    border-radius: 10px;
+    display: flex;
+}
+
+.quarimg {
+    margin-top: 30px;
+    width: 75%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-bottom: 30px;
+}
+
+.h1quar {
+    position: absolute;
+    text-align: end;
+    background-color: var(--gray);
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-right: 20px;
+}
+
+.btnquar {
+    margin-right: 20px;
+    position: absolute;
+    top: 494%;
+    padding: 10px;
+    text-align: center;
+    color: var(--black);
+    background-color: var(--white);
+    border-radius: 10px;
+    display: flex;
+}
+
+.thirdimg img,
+.quarimg img {
+    width: 100%;
+}
+
+.bottomimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    gap: 30px;
+}
+
+.store {
+    background-color: var(--black);
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btnstr {
+    background-color: var(--black);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* 🔥 BLOCO NOVO — APENAS ADICIONADO (não existia antes) */
+
+.textline2 {
+    position: absolute;
+    margin-top: 20px;
+    bottom: auto;
+    left: 79%;
+    transform: translateX(-50%);
+    width: 45%;
+    color: white;
+    text-align: left;
+    text-shadow: 0 0 10px black;
+    font-size: 100px;
+}
+
+.h1 {
+    font-size: 100px;
+    margin-top: 320px;
+    margin-right: 190px;
+    text-align: left;
+    width: 105%;
+    font-size: 95%;
+}
+
+.textline p {
+    font-size: 92px;
+    line-height: 1.0;
+}
+
+.textline3 {
+    position: absolute;
+    margin-top: 10px;
+    bottom: auto;
+    right: 35%;
+    transform: translateX(-50%);
+    width: 40%;
+    color: white;
+    text-align: left;
+    text-shadow: 0 0 10px black;
+    font-size: 110px;
+
+}
+
+.textline h1 {
+    font-size: 400px;
+    margin-bottom: 0px;
+}
+
+.textline p {
+    font-size: 92px;
+    line-height: 1.0;
+}
+
+@media (min-width: 768px) and (max-width:1199px) {
+
+    .btnh1 {
+        bottom: 40%;
+    }
+
+    .launches {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .btnsec {
+        top: 215%;
+    }
+
+    .mostsell {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 40px;
+        border-bottom: var(--line);
+    }
+
+    .btnthi,
+    .btnquar {
+        top: 415%;
+    }
+}
+
+@media (max-width: 768px) {
+    .btnh1 {
+        bottom: 45%;
+    }
+
+    .launches {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .btnsec {
+        top: 249%;
+    }
+
+    .mostsell {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 40px;
+        border-bottom: var(--line);
+    }
+
+    .mostsell img {
+        width: 250px;
+    }
+
+    .btnthi,
+    .btnquar {
+        top: 470%;
+    }
+
+    .thirdimg {
+        margin-top: 30px;
+        width: 75%;
+        display: flex;
+        justify-content: start;
+        align-items: end;
+        margin-bottom: 30px;
+    }
+
+    .h1thi,
+    .h1quar {
+        font-size: 10px;
+    }
+}
